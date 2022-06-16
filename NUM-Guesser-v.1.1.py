@@ -25,7 +25,7 @@ while True:
       # Accuracy(%) = 100% / Attempts
       
       accuracy = (100 // attempts)
-      score = 1000 - attempts * 50
+      score = 1050 - attempts * 50
       print(f'''
           
   |*****************************************
