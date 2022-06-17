@@ -1,7 +1,7 @@
 import random
 
 # Emojis: ⚽️ ✋ 🤚 👊 💥 ⭐️
-print("Welcome to 'PY-Penalties' v.1.0\n")
+print("Welcome to 'PY-Penalties' v.1.0.1\n")
 
 row1 = ["🔳","🔳","🔳"]
 row2 = ["🔳","🔳","🔳"]
@@ -28,7 +28,7 @@ def gates_view():
 # GAME Starts
 gates_view()
 
-print("\nYou are going to do penalties versus Computer! \nAim the ball using coodinates: 'Y' for columns and 'X' for rows. \n(f.e. '11' - You hit top-left corner. '32' - middle bottom) \nIf you score you get point, if computer stops the ball then it gets point. \nGame continues up to 10 Goals.")
+print("\nYou are going to do penalties versus Computer! \nAim the ball using coordinates: 'Y' for columns and 'X' for rows. \n(f.e. '11' - You hit top-left corner. '32' - middle bottom) \nIf you score you get point, if computer stops the ball then it gets point. \nGame continues up to 10 Goals.")
 
 pl_team_name = input("\nPlease name your team to begin: ")
 
